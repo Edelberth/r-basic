@@ -233,6 +233,16 @@ tan(0)
 ![Circunferencia Goniométrica](Imgs/trigon.png)
 </div>
 
+
+## manera correcta de representar cos
+```{r}
+
+cos(60) # Da un numero negativo que no es correcto porque la proyección sobre las x es positiva
+
+cos(60*pi/180) # Esta es la manera correcta.
+```
+
+
 ## Un pequeño adelanto
 
 ```{r, fig.height = 3.5, fig.width = 5, fig.align = "center"}
